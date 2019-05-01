@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat:500|Open+Sans');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  background: #F6F5F5;
+}
+.container {
+  background: #F6F5F5;
+  margin: 30px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #0A2C43;
+  font-size: 25px;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  color: #FBD74A;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #1B5173;
+  font-size: 20px;
+}
+a:hover {
+  color: #FBD74A;
+  font-size: 30px;
+}
+.btn {
+  color: white;
+  font-size: 15px;
+  background: #1B5173;
+  border-radius: 5px;
+  padding: 12px;
+}
+.btn:hover {
+  color: white;
+  font-size: 15px;
+  background: #FBD74A;
+  border-radius: 5px;
+  padding: 12px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+p {
+  color: #1B5173;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.card-white {
+  background: white;
+  border: 1px solid rgb(250, 250, 250);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 700px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .card-white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .card-white {
+    width: 300px;
+  }
+}
